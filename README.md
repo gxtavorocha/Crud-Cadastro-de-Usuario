@@ -32,7 +32,6 @@ Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar con
 
 Este projeto foi criado com foco em **praticar Programação Orientada a Objetos (POO)** e conceitos essenciais do **Spring Boot**, como:
 - Estrutura de camadas (Controller, Service, Repository)
-- Injeção de dependência
 - Uso do JPA e do banco em memória H2
 - Boas práticas de organização e arquitetura
 
