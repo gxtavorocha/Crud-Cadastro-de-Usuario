@@ -1,8 +1,8 @@
-# Crud-Cadastro-de-Usuario
+# Cadastro-de-Usuarios
 
-# 🧑‍💻 CRUD de Cadastro de Usuários
+# 🧑‍💻 Cadastro de Usuários
 
-Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar conceitos de **CRUD (Create, Read, Update, Delete)** e o uso do **banco de dados H2** em memória.
+Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar conceitos de **CRUD (Create, Read, Update, Delete)** e o uso do **banco de dados H2** banco em memória.
 
 ---
 
@@ -35,10 +35,3 @@ Este projeto foi criado com foco em **praticar Programação Orientada a Objetos
 - Uso do JPA e do banco em memória H2
 - Boas práticas de organização e arquitetura
 
----
-
-## ⚙️ Como Executar o Projeto
-
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
