@@ -1,8 +1,8 @@
 # Cadastro-de-Usuarios
 
-# 🧑‍💻 Cadastro de Usuários
+# 🧑‍💻 Cadastro de Usuários e Logins de Usuarios
 
-Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar conceitos de **CRUD (Create, Read, Update, Delete)** e o uso do **banco de dados H2** banco em memória.
+Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar conceitos de **CRUD (Create, Read, Update, Delete)**
 
 ---
 
@@ -13,7 +13,7 @@ Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar con
   - Spring Web
   - Spring Data JPA
   - Spring Boot DevTools
-- 🗄️ **Banco de Dados H2 (em memória)**
+- 🗄️ **Banco de Dados PostgreSQL**
 - 🧰 **Maven**
 
 ---
@@ -32,6 +32,8 @@ Projeto desenvolvido em **Java com Spring Boot**, com o objetivo de praticar con
 
 Este projeto foi criado com foco em **praticar Programação Orientada a Objetos (POO)** e conceitos essenciais do **Spring Boot**, como:
 - Estrutura de camadas (Controller, Service, Repository)
-- Uso do JPA e do banco em memória H2
+- Uso do JPA e do banco PostgreSQL
 - Boas práticas de organização e arquitetura
+- Implementação de Login e cadastros de usuarios.
+- OBS: não utilizei  JWT e spring security para realizar autenticações via token
 
