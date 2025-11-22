@@ -32,7 +32,7 @@ public class UsuarioService {
     }
 
 
-    public void atualizarUsuarioPorId(Integer id, Usuario usuario) {
+    public void atualizarUsuarioPorId(Long id, Usuario usuario) {
         Usuario usuarioEntity = repository.findById(id).orElseThrow(() -> new RuntimeException("Id não encontrado"));
         Usuario usuarioAtualizado = Usuario.builder()
                 .email(usuario.getEmail() != null ? usuario.getEmail() : usuarioEntity.getEmail())
@@ -44,5 +44,8 @@ public class UsuarioService {
         repository.saveAndFlush(usuarioAtualizado);
     }
 
-
+    public Usuario loginUser(String usuario, String senha){
+       Usuario userLogin = repository.findByEmailAndSenha(usuario, senha);
+       return userLogin;
+    }
 }

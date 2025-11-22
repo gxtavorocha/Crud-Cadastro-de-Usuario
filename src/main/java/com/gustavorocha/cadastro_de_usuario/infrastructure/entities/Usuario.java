@@ -4,6 +4,8 @@ package com.gustavorocha.cadastro_de_usuario.infrastructure.entities;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.GeneratedColumn;
+import java.util.Collection;
+import java.util.List;
 
 @Getter
 @Setter
@@ -12,15 +14,30 @@ import org.hibernate.annotations.GeneratedColumn;
 @Builder
 @Table(name = "usuario")
 @Entity
-public class Usuario {
+public class Usuario  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private Long id;
+
+    @Column(nullable = false,unique = true)
+    private String senha;
 
     @Column(name = "email", unique = true)
     private String email;
 
     @Column(name = "nome")
     private String nome;
+
+
+
+
+
+
+
+
+
+
+
+
 }
